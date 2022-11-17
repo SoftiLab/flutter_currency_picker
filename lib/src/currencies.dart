@@ -1,18 +1,6 @@
 //Order by Most traded currencies: https://en.wikipedia.org/wiki/Template:Most_traded_currencies
 List<Map<String, dynamic>> currencies = [
-    {
-    "code": "XOF",
-    "name": "West African CFA franc",
-    "symbol": "CFA",
-    "flag": null,
-    "decimal_digits": 0,
-    "number": 951,
-    "name_plural": "West African CFA francs",
-    "thousands_separator": " ",
-    "decimal_separator": ",",
-    "space_between_amount_and_symbol": true,
-    "symbol_on_left": false,
-  },
+
   {
     "code": "USD",
     "name": "United States Dollar",
@@ -736,6 +724,19 @@ List<Map<String, dynamic>> currencies = [
     "decimal_digits": 0,
     "number": 950,
     "name_plural": "Central African CFA francs",
+    "thousands_separator": " ",
+    "decimal_separator": ",",
+    "space_between_amount_and_symbol": true,
+    "symbol_on_left": false,
+  },
+  {
+    "code": "XOF",
+    "name": "West African CFA franc",
+    "symbol": "FCFA",
+    "flag": null,
+    "decimal_digits": 0,
+    "number": 951,
+    "name_plural": "West African CFA francs",
     "thousands_separator": " ",
     "decimal_separator": ",",
     "space_between_amount_and_symbol": true,
